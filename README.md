@@ -1,26 +1,32 @@
 # webapp-qqmusic
 
-## Project setup
+## 项目初始化
 ```
+npm install
+cd webapp-qqmusic
+```
+### 下载并启动api接口
+```
+git clone git@github.com:Binaryify/NeteaseCloudMusicApi.git
 npm install
 ```
 
-### Compiles and hot-reloads for development
+### 启动项目
 ```
 npm run serve
 ```
 
-### Compiles and minifies for production
+### 构建项目
 ```
 npm run build
 ```
 
-### Run your tests
+### 测试
 ```
 npm run test
 ```
 
-### Lints and fixes files
+### lint检查
 ```
 npm run lint
 ```
