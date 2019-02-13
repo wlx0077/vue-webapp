@@ -5,10 +5,12 @@
 npm install
 cd webapp-qqmusic
 ```
-### 下载并启动api接口
+### 下载并启动api
 ```
 git clone git@github.com:Binaryify/NeteaseCloudMusicApi.git
 npm install
+cd NeteaseCloudMusicApi
+npm start
 ```
 
 ### 启动项目
@@ -20,16 +22,3 @@ npm run serve
 ```
 npm run build
 ```
-
-### 测试
-```
-npm run test
-```
-
-### lint检查
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
