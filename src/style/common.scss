@@ -1,0 +1,26 @@
+@import "./variables";
+
+a {
+  color: $gray-800;
+}
+
+h3,
+.h3 {
+  font-size: $font-size-h3;
+}
+p {
+  margin: 0;
+}
+
+.ellipsis {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.ellipsis-2 {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+}
